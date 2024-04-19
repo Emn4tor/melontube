@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
             videoSource: "vids/hotmelonpeels.mp4"
         },        
         { 
-            title: "Massaging melon till she gets wet",
-            description: "Hot melon !",
+            title: "Hot melon !",
+            description: "Massaging melon till she gets wet",
             preview: "img/thumb/melon2.jpg",
             videoSource: "vids/melon2.mp4"
         },
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const videoContent = document.createElement("div");
         videoContent.classList.add("video-content");
+        videoContent.textContent = video.description;
 
         const videoTitle = document.createElement("div");
         videoTitle.classList.add("video-title");
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         videoElement.appendChild(videoPreview);
         videoElement.appendChild(videoPlayButton);
+        videoElement.appendChild(videoTitle);
         videoElement.appendChild(videoContent);
 
         videosContainer.appendChild(videoElement);
