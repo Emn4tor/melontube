@@ -76,7 +76,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
     transition: opacity 0.3s ease;
     opacity: 0;
@@ -127,7 +127,7 @@ nav {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #1DB954; 
+    background-color: #1a1a1a; 
     color: #fff;
 }
 
@@ -170,7 +170,7 @@ width: 85%;
 }
 
 .navbar__links .navbar__link:hover {
-    color: rgba(255,255,255,1);
+    color: rgb(27, 224, 9);
 }
 
 .navbar__cta {
