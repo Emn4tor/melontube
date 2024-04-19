@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a; 
+    color: #fff;
+}
+
+h1 {
+    color: #1DB954; 
+}
+
+
+
+
+
+
+.navbar {
+    background-color: #1a1a1a;
+}
+
+.navbar__container {
+    width: 100%;
+    max-width: 85vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+}
+
+.navbar__logo {
+    width: 25%;
+}
+
+.navbar__logo img {
+width: 85%;
+}
+
+.navbar__links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar__links .navbar__link {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.navbar__links .navbar__link:hover {
+    color: rgb(27, 224, 9);
+}
+
+.navbar__cta {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.navbar__cta .navbar__search {
+    height: 25px;
+    width: 300px;
+    padding: 15px 25px;
+    background-color: #1a1a1a;
+    outline: none;
+    border: 2px solid #3a3a3a;
+    border-radius: 25px;
+    color: #5a5a5a;
+    transition: all .3s ease;
+}
+
+.navbar__cta .navbar__search:focus {
+    border: 2px solid #5a5a5a;
+}
+
+.navbar__cta .navbar__search::placeholder {
+    color: #5a5a5a;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery__row {
+    display: grid;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.gallery__item {
+    flex-basis: calc(20% - 20px); 
+    text-align: center;
+}
+
+.gallery__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.image-title {
+    color: #fff;
+    font-size: 24px;
+}
