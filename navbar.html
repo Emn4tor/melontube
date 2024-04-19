@@ -4,90 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melonssssssssssssssss</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        nav {
-            background-color: #1a1a1a;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .top-bar {
-            display: flex;
-            align-items: center;
-        }
-        .menu-icon {
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        .logo {
-            max-height: 100px;
-            margin-right: 20px;
-            margin-left: 30px;
-        }
-        .search-box {
-            flex: 1;
-            padding: 5px;
-            border: none;
-            border-radius: 50px;
-            min-height: 30px;
-            min-width: 509px;
-            margin: 0 auto;
-            text-align: center;
-            background-color: #333333;
-        }
-        .login-register {
-            color: white;
-            margin-left: auto;
-        }
-        .nav-links {
-            display: flex;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        .nav-link {
-            margin-left: 20px;
-            color: white;
-            position: relative;
-            text-decoration: none;
-        }
-        .nav-link:hover::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -3px;
-            width: 100%;
-            height: 2px;
-            background-color: green;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <nav>
-        <div class="top-bar">
-            <div>
-                <div class="menu-icon">&#9776;</div>
-                <img src="img/sources/logo.png" alt="Logo" class="logo">
+    <header>
+        <div class="navbar">
+            <div class="navbar__container">
+                <div class="navbar__links">
+                    <a href="./index.html" class="navbar__link">Start</a>
+                    <a href="./index.html" class="navbar__link">Videos</a>
+                    <a href="./index.html" class="navbar__link">Kategorien</a>
+                    <a href="./index.html" class="navbar__link">Live Kameras</a>
+                    <a href="./index.html" class="navbar__link">Melonen Stars</a>
+                    <a href="./index.html" class="navbar__link">Fotos & Gifs</a>
+                </div>
+                <a href="./index.html" class="navbar__logo">
+                    <img src="./img/sources/logo.png" alt="MelonHUB">
+                </a>
+                <div class="navbar__cta">
+                    <input type="text" placeholder="Search..." class="navbar__search">
+                </div>
             </div>
-            <input type="text" class="search-box" placeholder="Search...">
-            <span class="login-register">Login/Register</span>
         </div>
-        <ul class="nav-links">
-            <li><a href="#" class="nav-link">Start</a></li>
-            <li><a href="#" class="nav-link">Videos</a></li>
-            <li><a href="stars/categorys.html" class="nav-link">Kategorien</a></li>
-            <li><a href="stars/sooon.html" class="nav-link">Live Kameras</a></li>
-            <li><a href="stars/index.html" class="nav-link">MelonenStars</a></li>
-            <li><a href="https://dc.24fire.de/" class="nav-link">Community</a></li>
-            <li><a href="pics/index.html" class="nav-link">Fotos&Gifs</a></li>
-        </ul>
-    </nav>
+    </header>
 </body>
 </html>
